@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex; 
+    gap: 10px; 
+}
+
+.banner {
+    background-color: blue;
+    border: 4px solid yellow; 
+    border-radius: 10px; 
+    padding: 20px;
+    width: 250px; 
+    text-align: center;
+}
+
+.banner p {
+    color: yellow; 
+    font-size: 20px; 
+    font-weight: bold; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
